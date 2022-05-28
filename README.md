@@ -81,7 +81,7 @@ Koi微信交流群：thinkaicto
 
 <table>
     <tr>
-        <td><img src="https://gitee.com/dnxt111/wisdom-v2.0/blob/master/UI/PC%E7%AB%AF/1%20%E7%99%BB%E5%BD%95.jpg"/></td>
+        <td><img src="https://gitee.com/dnxt111/wisdom-v2.0/raw/master/UI/PC%E7%AB%AF/1%20%E7%99%BB%E5%BD%95.jpg"/></td>
         <td><img src="http://wenhui012.images.nxptdn.com/%E5%86%9C%E4%B8%9A%E5%B9%B3%E5%8F%B0%20V2.0/PC%E7%AB%AF/2%20%E6%A6%82%E8%A6%81.jpg"/></td>
     </tr>
     <tr>
