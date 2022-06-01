@@ -63,9 +63,7 @@
 
 #### 五、交流群
 
-Koi农业交流QQ群：136606152  <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=BGw0BBspVuE0qWB9np0cpnBBmtsc9zmv&jump_from=webapi"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="KoiAgriculture-v2" title="KoiAgriculture-v2"></a>
-
-Koi微信交流群：thinkaicto
+微信：thinkaicto（添加微信请先star，备注申请原因）
 #### 六、在线体验
 
 - 17615155555/766554  
