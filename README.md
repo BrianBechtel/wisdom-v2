@@ -70,7 +70,7 @@
 
 - 17615155555/766554  
 
-演示地址：http://yun.nxptdn.com
+演示地址：http://zhny.v2.nxptdn.com/
 
 官方网站：http://wenhui.nxptdn.com/
 
