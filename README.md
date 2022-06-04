@@ -63,14 +63,12 @@
 
 #### 五、交流群
 
-欢迎讨论交流加群，加微信18601938676（添加微信请先star）
-
-
+微信：thinkaicto（添加微信请先star，备注申请原因）
 #### 六、在线体验
 
 - 17615155555/766554  
 
-演示地址：http://yun.nxptdn.com/
+演示地址：http://yun.nxptdn.com
 
 官方网站：http://wenhui.nxptdn.com/
 
