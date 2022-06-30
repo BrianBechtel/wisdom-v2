@@ -76,12 +76,12 @@
 
 ##### PC端
 
-<table>
-    <tr>
-        <td><img src="https://wenhui-1251454246.cos.ap-nanjing.myqcloud.com/ny/nongye-v2/PC%E7%AB%AF/1.jpg"/></td>
-        <td><img src="https://wenhui-1251454246.cos.ap-nanjing.myqcloud.com/ny/nongye-v2/PC%E7%AB%AF/2.jpg"/></td>
-    </tr>
-</table>
+<img src="https://wenhui-1251454246.cos.ap-nanjing.myqcloud.com/ny/nongye-v2/PC%E7%AB%AF/1.jpg"/>
+
+***
+
+<img src="https://wenhui-1251454246.cos.ap-nanjing.myqcloud.com/ny/nongye-v2/PC%E7%AB%AF/2.jpg"/>
+
 
 ##### APP端
 <table>
