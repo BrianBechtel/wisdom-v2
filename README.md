@@ -98,7 +98,3 @@
         <td><img src="https://wenhui-1251454246.cos.ap-nanjing.myqcloud.com/ny/nongye-v2/APP%E7%AB%AF/6.jpg"/></td>
     </tr>
 </table>
-
-##### 团队计划说明
-
-- V2版本暂时保持现状，团队目前重点打造V3.0版本。
