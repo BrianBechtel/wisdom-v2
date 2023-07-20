@@ -1,0 +1,355 @@
+/*
+  消除非统一样式
+*/
+#div1{
+  padding: 0;
+}
+
+/*
+ warehouseList 样式
+*/
+.wareList-wrapper{
+  width: 100%;
+}
+.wareList-head{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: #04030f;
+  background: #fff;
+  font-size: 16px;
+  font-family: "微软雅黑";
+  font-weight: 600;
+}
+.wareList-head-tit {
+  display: inline-block;
+  width: 40%;
+  text-indent: 20px;
+  vertical-align: top;
+  color: #04030f;
+  font-size: 16px;
+  font-family: "微软雅黑";
+  font-weight: 600;
+}
+.wareList-head-add {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+  color: #6b8299;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.wareList-nav{
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #e5ebfc;
+  background: #fff;
+  font-size: 0;
+}
+.wareList-nav-items{
+  width: 100%;
+  height: 44px;
+  border-bottom: 1px solid #e5ebfc;
+  font-size: 0;
+}
+.wareList-nav-items-t1{
+  display: inline-block;
+  width: 80%;
+  padding-left: 20px;
+  height: 44px;
+  line-height: 44px;
+  font-size: 14px;
+  color: #6b8299;
+}
+.wareList-nav-items-hide{
+  display: inline-block;
+  width: 12%;
+  height: 44px;
+  text-align: right;
+}
+.wareList-nav-items-hide-icon{
+  font-size: 12px;
+  color: #6b8299;
+}
+.wareList-nav-items-t2{
+  display: inline-block;
+  padding-left: 4px;
+  height: 44px;
+  line-height: 44px;
+  font-size: 14px;
+  color: #6b8299;
+  cursor: pointer;
+}
+.wareList-nav-items-t3{
+  display: inline-block;
+  width: 8%;
+  height: 44px;
+  line-height: 44px;
+  font-size: 14px;
+  color: #6b8299;
+  text-align: center;
+  cursor: pointer;
+}
+.wareList-nav-items-cons{
+  width: 100%;
+  padding: 20px 30px;
+  font-size: 0;
+}
+.wareList-nav-items-con{
+  display: inline-block;
+  width: 310px;
+  font-size: 0;
+  position: relative;
+  padding-right: 10px;
+}
+.wareList-nav-items-span{
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #616161;
+  text-align: center;
+}
+.wareList-nav-items-con input{
+  display: inline-block;
+  width: 160px;
+  height: 30px;
+  line-height: 30px;
+  /*border: 1px solid #666;*/
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  text-indent: 4px;
+  outline: none;
+  background: #ffffff;
+  color: #000000;
+  font-size: 14px;
+}
+.wareList-nav-search, .wareList-nav-type-search{
+  position: absolute;
+  top: 0;
+  right: 70px;
+  display: block;
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  background: #1785DC;
+  color: #fff;
+  text-align: center;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.wareList-content{
+  width: 100%;
+  border: 1px solid #e5ebfc;
+  background: #fff;
+  padding: 1px;
+}
+.wareList-content-head{
+  width: 100%;
+  height: 44px;
+  border-bottom: 1px solid #e5ebfc;
+  background: #fafdff;
+  font-size: 0;
+}
+.wareList-content-head-name{
+  display: inline-block;
+  width: 50%;
+  height: 44px;
+  line-height: 44px;
+  font-size: 14px;
+  color: #6b8299;
+  text-indent: 20px;
+}
+.wareList-content-head-num{
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  padding-right: 20px;
+  text-align: right;
+}
+.wareList-content-head-show{
+  position: absolute;
+  right: 20px;
+  display: block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #f2f2f2;
+  background: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+.wareList-content-head-show i{
+  font-size: 12px;
+}
+.wareList-content-show-num{
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #f2f2f2;
+  background: #fff;
+  font-size: 14px;
+}
+.wareList-content-nav{
+  width: 100%;
+  height: 46px;
+  line-height: 46px;
+  border-bottom: 1px solid #f7f8fa;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+}
+.wareList-content-nav .wareList-content-nav-index{
+  flex: 0 0 50px;
+  -webkit-flex: 0 0 50px;
+  -ms-flex: 0 0 50px;
+}
+.wareList-content-nav span{
+  flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  text-align: center;
+  color: #6b8299;
+  font-weight: 600;
+  font-family: "微软雅黑";
+}
+.wareList-content-nav span:nth-child(2) {
+  /*text-indent: 16px;
+  text-align: left;*/
+}
+.wareList-content-con{
+  width: 100%;
+  height: 46px;
+  line-height: 46px;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wareList-content-con:nth-child(2n){
+  background: #f7f8fa;
+}
+.wareList-content-con .wareList-content-con-index{
+  flex: 0 0 50px;
+  -webkit-flex: 0 0 50px;
+  -ms-flex: 0 0 50px;
+}
+.wareList-content-con span{
+  flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  text-align: center;
+}
+.wareList-content-con span:nth-child(2) {
+  /*text-indent: 10px;
+  text-align: left;*/
+}
+.wareList-content-con i{
+  cursor: pointer;
+}
+.wareList-content-con:hover{
+  cursor: pointer;
+}
+.wareList-content-con:hover span{
+  color: #1885dc;
+}
+/**/
+.wareList-foot-wra{
+  width: 100%;
+}
+.wareList-foot-dao{
+  display: inline-block;
+  width: 48%;
+  padding: 20px 0;
+  vertical-align: top;
+}
+.wareList-foot-dao-all{
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+}
+.wareList-foot-dao-export{
+  display: inline-block;
+  width: 120px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border: 1px solid #f2f2f2;
+  color: #6b8299;
+  margin: 0 12px;
+}
+.wareList-foot-dao-sure{
+  display: inline-block;
+  width: 60px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border: 1px solid #f2f2f2;
+  color: #6b8299;
+}
+.wareList-foot{
+  display: inline-block;
+  width: 48%;
+  padding-right: 66px;
+  background: #fff;
+  text-align: right;
+}
+.wareList-foot-page{
+  display: inline-block;
+  vertical-align: middle;
+}
+.wareList-foot-jump{
+  display: inline-block;
+  padding-left: 10px;
+}
+.wareList-foot-jump input{
+  display: inline-block;
+  width: 26px;
+  text-align: center;
+}
+.wareList-content-msg{
+  color: #1885dc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
