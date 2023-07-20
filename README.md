@@ -6,7 +6,7 @@
 
 
 
-### 鲸哩农业SaaS系统(Version:2.0.1)
+### 鲸哩农业SaaS系统(Version:2.0.2)
 
 > 体验地址， V3 star star ： (请您先体验V2)
 
