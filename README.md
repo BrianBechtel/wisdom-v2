@@ -20,7 +20,7 @@
 
 ##### 1. 鲸哩农业SaaS系统(Version:2.0.1)是历时两年半开发一整套农业的平台，看了很多的企业、个人依旧在重复性开发但是发现网上没有合适的。于是自己想把公司一套完整农业平台系统开源。
 
-##### 2. 鲸哩农业SaaS系统v2.0.1 是一套从全闭环（设备端 采集端 PC端 APP端）的农业物联网平台，毫无保留给个人及企业免费使用。
+##### 2. 鲸哩农业SaaS系统v2.0.1 是一套从全闭环全场景（设备端 采集端 PC端 APP端 小程序端）的农业物联网平台。
 
 
 
@@ -44,13 +44,13 @@
 
 #### 三、技术栈
    * 服务端
-       - 相关技术：Spring 、MyBatis、Spring Security、Jwt、Mysql、Redis、WebSocket、Netty、Mqtt等
+       - 相关技术：SpringBoot、SpringCloud 、MyBatis、Spring Security、Jwt、Mysql、Redis、WebSocket、Netty、Mqtt等
        - 开发工具：IDEA    
    * Web端
        - 相关技术：ES6、Bootstrap等 
        - 开发工具：Visual Studio Code    
    * 移动端（Android / Ios / 微信小程序 / H5）
-       - 相关技术：目前提供原生Android;uniapp、[uView](https://www.uviewui.com/)、[uChart](https://www.ucharts.cn/)开发中
+       - 相关技术：uniapp、[uView](https://www.uviewui.com/)、[uChart](https://www.ucharts.cn/)
        - 开发工具：HBuilder
    * 硬件端
        - 相关技术： ESP-IDF、Arduino、FreeRTOS、海康宇视摄像头等
