@@ -6,11 +6,11 @@
 
 
 
-### 鲸哩农业SaaS系统(Version:2.0.2)
+### 开源农业SaaS系统(Version:2.0.1)
 
-> 体验地址， V3 star star ： (请您先体验V2)
+> 体验地址， V3 star star ： (请您先体验V2)  
 
-> 体验地址， V2 star star ： [点我访问](http://yun.nxptdn.com)
+> 体验地址， V2 star star ： [点我访问](http://yun.nxptdn.com)  http://yun.nxptdn.com
 
 
 
@@ -56,15 +56,11 @@
        - 相关技术： ESP-IDF、Arduino、FreeRTOS、海康宇视摄像头等
        - 开发工具：Visual Studio Code 和 Arduino
 
-#### 四、代码目录
-&nbsp;&nbsp;&nbsp;&nbsp; wisdom_farming_site --------------- 后台接口<br>
-&nbsp;&nbsp;&nbsp;&nbsp; html ---------------  PC端前端界面<br>
-&nbsp;&nbsp;&nbsp;&nbsp; android --------------- 安卓前端界面[获取App源码-加群]<br>
-&nbsp;&nbsp;&nbsp;&nbsp; device_server --------------- 设备采集端[获取App源码-加群] 
+
 
 #### 五、交流群
 
-微信：thinkaicto（添加微信请先star，备注申请原因）
+微信：18601938676（添加微信请先star，备注申请原因）
 #### 六、在线体验
 
 - 17615155555/766554  
