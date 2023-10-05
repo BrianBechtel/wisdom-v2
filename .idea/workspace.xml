@@ -2,70 +2,675 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5ae73ee-1044-46c8-8cd7-1a6579f83890" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/v2-zhny-4.27.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/v2-zhny-4.27.sql" afterDir="false" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/401_images/401.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/404_images/404.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/404_images/404_cloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/images/login-background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/images/profile.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/logo/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-api/jingli-api-system/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-api/jingli-api-system/src/main/java/com/jingli/system/api/RemoteFileService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-api/jingli-api-system/src/main/java/com/jingli/system/api/RemoteLogService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-api/jingli-api-system/src/main/java/com/jingli/system/api/RemoteUserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-api/jingli-api-system/src/main/java/com/jingli/system/api/domain/SysDept.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-api/jingli-api-system/src/main/java/com/jingli/system/api/domain/SysDictData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-api/jingli-api-system/src/main/java/com/jingli/system/api/domain/SysDictType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-api/jingli-api-system/src/main/java/com/jingli/system/api/domain/SysFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-api/jingli-api-system/src/main/java/com/jingli/system/api/domain/SysLogininfor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-api/jingli-api-system/src/main/java/com/jingli/system/api/domain/SysOperLog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-api/jingli-api-system/src/main/java/com/jingli/system/api/domain/SysRole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-api/jingli-api-system/src/main/java/com/jingli/system/api/domain/SysUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-api/jingli-api-system/src/main/java/com/jingli/system/api/factory/RemoteFileFallbackFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-api/jingli-api-system/src/main/java/com/jingli/system/api/factory/RemoteLogFallbackFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-api/jingli-api-system/src/main/java/com/jingli/system/api/factory/RemoteUserFallbackFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-api/jingli-api-system/src/main/java/com/jingli/system/api/model/LoginUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-api/jingli-api-system/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-api/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-auth/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-auth/src/main/java/com/jingli/auth/JingliAuthApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-auth/src/main/java/com/jingli/auth/controller/TokenController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-auth/src/main/java/com/jingli/auth/form/LoginBody.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-auth/src/main/java/com/jingli/auth/form/RegisterBody.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-auth/src/main/java/com/jingli/auth/service/SysLoginService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-auth/src/main/java/com/jingli/auth/service/SysPasswordService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-auth/src/main/java/com/jingli/auth/service/SysRecordLogService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-auth/src/main/resources/banner.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-auth/src/main/resources/bootstrap.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-auth/src/main/resources/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/annotation/Excel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/annotation/Excels.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/constant/CacheConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/constant/Constants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/constant/GenConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/constant/HttpStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/constant/ScheduleConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/constant/SecurityConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/constant/ServiceNameConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/constant/TokenConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/constant/UserConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/context/SecurityContextHolder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/domain/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/enums/UserStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/exception/CaptchaException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/exception/CheckedException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/exception/DemoModeException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/exception/GlobalException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/exception/InnerAuthException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/exception/PreAuthorizeException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/exception/ServiceException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/exception/UtilException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/exception/auth/NotLoginException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/exception/auth/NotPermissionException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/exception/auth/NotRoleException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/exception/base/BaseException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/exception/file/FileException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/exception/file/FileNameLengthLimitExceededException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/exception/file/FileSizeLimitExceededException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/exception/file/FileUploadException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/exception/file/InvalidExtensionException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/exception/job/TaskException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/exception/user/CaptchaExpireException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/exception/user/UserException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/exception/user/UserPasswordNotMatchException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/text/CharsetKit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/text/Convert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/text/StrFormatter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/DateUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/ExceptionUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/JwtUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/PageUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/ServletUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/SpringUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/StringUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/bean/BeanUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/bean/BeanValidators.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/file/FileTypeUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/file/FileUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/file/ImageUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/file/MimeTypeUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/html/EscapeUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/html/HTMLFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/ip/IpUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/poi/ExcelHandlerAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/poi/ExcelUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/reflect/ReflectUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/sign/Base64.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/sql/SqlUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/uuid/IdUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/uuid/Seq.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/utils/uuid/UUID.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/web/controller/BaseController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/web/domain/AjaxResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/web/domain/BaseEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/web/domain/TreeEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/web/page/PageDomain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/web/page/TableDataInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/web/page/TableSupport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/xss/Xss.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/java/com/jingli/common/core/xss/XssValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-core/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-datascope/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-datascope/src/main/java/com/jingli/common/datascope/annotation/DataScope.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-datascope/src/main/java/com/jingli/common/datascope/aspect/DataScopeAspect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-datascope/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-datasource/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-datasource/src/main/java/com/jingli/common/datasource/annotation/Master.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-datasource/src/main/java/com/jingli/common/datasource/annotation/Slave.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-log/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-log/src/main/java/com/jingli/common/log/annotation/Log.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-log/src/main/java/com/jingli/common/log/aspect/LogAspect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-log/src/main/java/com/jingli/common/log/enums/BusinessStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-log/src/main/java/com/jingli/common/log/enums/BusinessType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-log/src/main/java/com/jingli/common/log/enums/OperatorType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-log/src/main/java/com/jingli/common/log/filter/PropertyPreExcludeFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-log/src/main/java/com/jingli/common/log/service/AsyncLogService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-log/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-redis/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-redis/src/main/java/com/jingli/common/redis/configure/FastJson2JsonRedisSerializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-redis/src/main/java/com/jingli/common/redis/configure/RedisConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-redis/src/main/java/com/jingli/common/redis/service/RedisService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-redis/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-seata/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/src/main/java/com/jingli/common/security/annotation/EnableCustomConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/src/main/java/com/jingli/common/security/annotation/EnableRyFeignClients.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/src/main/java/com/jingli/common/security/annotation/InnerAuth.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/src/main/java/com/jingli/common/security/annotation/Logical.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/src/main/java/com/jingli/common/security/annotation/RequiresLogin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/src/main/java/com/jingli/common/security/annotation/RequiresPermissions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/src/main/java/com/jingli/common/security/annotation/RequiresRoles.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/src/main/java/com/jingli/common/security/aspect/InnerAuthAspect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/src/main/java/com/jingli/common/security/aspect/PreAuthorizeAspect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/src/main/java/com/jingli/common/security/auth/AuthLogic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/src/main/java/com/jingli/common/security/auth/AuthUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/src/main/java/com/jingli/common/security/config/ApplicationConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/src/main/java/com/jingli/common/security/config/WebMvcConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/src/main/java/com/jingli/common/security/feign/FeignAutoConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/src/main/java/com/jingli/common/security/feign/FeignRequestInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/src/main/java/com/jingli/common/security/handler/GlobalExceptionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/src/main/java/com/jingli/common/security/interceptor/HeaderInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/src/main/java/com/jingli/common/security/service/TokenService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/src/main/java/com/jingli/common/security/utils/DictUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/src/main/java/com/jingli/common/security/utils/SecurityUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-security/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-swagger/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-swagger/src/main/java/com/jingli/common/swagger/annotation/EnableCustomSwagger2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-swagger/src/main/java/com/jingli/common/swagger/config/SwaggerAutoConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-swagger/src/main/java/com/jingli/common/swagger/config/SwaggerBeanPostProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-swagger/src/main/java/com/jingli/common/swagger/config/SwaggerProperties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-swagger/src/main/java/com/jingli/common/swagger/config/SwaggerWebConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/jingli-common-swagger/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-common/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/java/com/jingli/gateway/JingliGatewayApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/java/com/jingli/gateway/config/CaptchaConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/java/com/jingli/gateway/config/GatewayConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/java/com/jingli/gateway/config/KaptchaTextCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/java/com/jingli/gateway/config/RouterFunctionConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/java/com/jingli/gateway/config/SwaggerProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/java/com/jingli/gateway/config/properties/CaptchaProperties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/java/com/jingli/gateway/config/properties/IgnoreWhiteProperties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/java/com/jingli/gateway/config/properties/XssProperties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/java/com/jingli/gateway/filter/AuthFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/java/com/jingli/gateway/filter/BlackListUrlFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/java/com/jingli/gateway/filter/CacheRequestFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/java/com/jingli/gateway/filter/ValidateCodeFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/java/com/jingli/gateway/filter/XssFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/java/com/jingli/gateway/handler/GatewayExceptionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/java/com/jingli/gateway/handler/SentinelFallbackHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/java/com/jingli/gateway/handler/SwaggerHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/java/com/jingli/gateway/handler/ValidateCodeHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/java/com/jingli/gateway/service/ValidateCodeService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/java/com/jingli/gateway/service/impl/ValidateCodeServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/resources/banner.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/resources/bootstrap.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-gateway/src/main/resources/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-file/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-file/src/main/java/com/jingli/file/JingliFileApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-file/src/main/java/com/jingli/file/config/MinioConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-file/src/main/java/com/jingli/file/config/ResourcesConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-file/src/main/java/com/jingli/file/controller/SysFileController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-file/src/main/java/com/jingli/file/service/FastDfsSysFileServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-file/src/main/java/com/jingli/file/service/ISysFileService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-file/src/main/java/com/jingli/file/service/LocalSysFileServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-file/src/main/java/com/jingli/file/service/MinioSysFileServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-file/src/main/java/com/jingli/file/utils/FileUploadUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-file/src/main/resources/banner.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-file/src/main/resources/bootstrap.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-file/src/main/resources/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/java/com/jingli/gen/JingliGenApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/java/com/jingli/gen/config/GenConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/java/com/jingli/gen/controller/GenController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/java/com/jingli/gen/domain/GenTable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/java/com/jingli/gen/domain/GenTableColumn.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/java/com/jingli/gen/mapper/GenTableColumnMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/java/com/jingli/gen/mapper/GenTableMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/java/com/jingli/gen/service/GenTableColumnServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/java/com/jingli/gen/service/GenTableServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/java/com/jingli/gen/service/IGenTableColumnService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/java/com/jingli/gen/service/IGenTableService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/java/com/jingli/gen/util/GenUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/java/com/jingli/gen/util/VelocityInitializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/java/com/jingli/gen/util/VelocityUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/resources/banner.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/resources/bootstrap.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/resources/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/resources/mapper/generator/GenTableColumnMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/resources/mapper/generator/GenTableMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/resources/vm/java/controller.java.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/resources/vm/java/domain.java.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/resources/vm/java/mapper.java.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/resources/vm/java/service.java.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/resources/vm/java/serviceImpl.java.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/resources/vm/java/sub-domain.java.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/resources/vm/js/api.js.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/resources/vm/sql/sql.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/resources/vm/vue/index-tree.vue.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/resources/vm/vue/index.vue.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/resources/vm/vue/v3/index-tree.vue.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/resources/vm/vue/v3/index.vue.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/resources/vm/vue/v3/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-gen/src/main/resources/vm/xml/mapper.xml.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/java/com/jingli/job/JingliJobApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/java/com/jingli/job/config/ScheduleConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/java/com/jingli/job/controller/SysJobController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/java/com/jingli/job/controller/SysJobLogController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/java/com/jingli/job/domain/SysJob.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/java/com/jingli/job/domain/SysJobLog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/java/com/jingli/job/mapper/SysJobLogMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/java/com/jingli/job/mapper/SysJobMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/java/com/jingli/job/service/ISysJobLogService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/java/com/jingli/job/service/ISysJobService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/java/com/jingli/job/service/SysJobLogServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/java/com/jingli/job/service/SysJobServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/java/com/jingli/job/task/RyTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/java/com/jingli/job/util/AbstractQuartzJob.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/java/com/jingli/job/util/CronUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/java/com/jingli/job/util/JobInvokeUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/java/com/jingli/job/util/QuartzDisallowConcurrentExecution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/java/com/jingli/job/util/QuartzJobExecution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/java/com/jingli/job/util/ScheduleUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/resources/banner.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/resources/bootstrap.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/resources/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/resources/mapper/job/SysJobLogMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-job/src/main/resources/mapper/job/SysJobMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/JingliSystemApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/controller/SysConfigController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/controller/SysDeptController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/controller/SysDictDataController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/controller/SysDictTypeController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/controller/SysLogininforController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/controller/SysMenuController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/controller/SysNoticeController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/controller/SysOperlogController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/controller/SysPostController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/controller/SysProfileController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/controller/SysRoleController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/controller/SysUserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/controller/SysUserOnlineController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/domain/SysConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/domain/SysMenu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/domain/SysNotice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/domain/SysPost.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/domain/SysRoleDept.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/domain/SysRoleMenu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/domain/SysUserOnline.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/domain/SysUserPost.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/domain/SysUserRole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/domain/vo/MetaVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/domain/vo/RouterVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/domain/vo/TreeSelect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/mapper/SysConfigMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/mapper/SysDeptMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/mapper/SysDictDataMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/mapper/SysDictTypeMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/mapper/SysLogininforMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/mapper/SysMenuMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/mapper/SysNoticeMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/mapper/SysOperLogMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/mapper/SysPostMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/mapper/SysRoleDeptMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/mapper/SysRoleMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/mapper/SysRoleMenuMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/mapper/SysUserMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/mapper/SysUserPostMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/mapper/SysUserRoleMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/ISysConfigService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/ISysDeptService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/ISysDictDataService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/ISysDictTypeService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/ISysLogininforService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/ISysMenuService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/ISysNoticeService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/ISysOperLogService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/ISysPermissionService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/ISysPostService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/ISysRoleService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/ISysUserOnlineService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/ISysUserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/impl/SysConfigServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/impl/SysDeptServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/impl/SysDictDataServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/impl/SysDictTypeServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/impl/SysLogininforServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/impl/SysMenuServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/impl/SysNoticeServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/impl/SysOperLogServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/impl/SysPermissionServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/impl/SysPostServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/impl/SysRoleServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/impl/SysUserOnlineServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/java/com/jingli/system/service/impl/SysUserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/resources/banner.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/resources/bootstrap.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/resources/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/resources/mapper/system/SysConfigMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/resources/mapper/system/SysDeptMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/resources/mapper/system/SysDictDataMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/resources/mapper/system/SysDictTypeMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/resources/mapper/system/SysLogininforMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/resources/mapper/system/SysMenuMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/resources/mapper/system/SysNoticeMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/resources/mapper/system/SysOperLogMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/resources/mapper/system/SysPostMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/resources/mapper/system/SysRoleDeptMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/resources/mapper/system/SysRoleMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/resources/mapper/system/SysRoleMenuMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/resources/mapper/system/SysUserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/resources/mapper/system/SysUserPostMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/jingli-system/src/main/resources/mapper/system/SysUserRoleMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-modules/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/.env.development" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/.env.production" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/.env.staging" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/.eslintignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/.eslintrc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/babel.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/bin/build.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/bin/package.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/bin/run-web.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/build/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/public/html/ie.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/public/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/public/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/App.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/api/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/api/menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/api/monitor/job.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/api/monitor/jobLog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/api/monitor/online.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/api/system/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/api/system/dept.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/api/system/dict/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/api/system/dict/type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/api/system/logininfor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/api/system/menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/api/system/notice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/api/system/operlog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/api/system/post.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/api/system/role.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/api/system/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/api/tool/gen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/404.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/bug.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/build.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/button.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/cascader.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/chart.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/checkbox.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/client.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/clipboard.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/code.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/color.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/component.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/dashboard.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/date-range.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/date.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/dict.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/documentation.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/download.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/drag.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/druid.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/edit.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/education.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/email.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/example.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/excel.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/exit-fullscreen.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/eye-open.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/eye.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/form.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/fullscreen.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/github.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/guide.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/icon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/input.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/international.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/job.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/language.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/link.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/list.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/lock.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/log.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/logininfor.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/message.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/money.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/monitor.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/nacos.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/nested.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/number.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/online.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/password.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/pdf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/people.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/peoples.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/phone.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/post.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/qq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/question.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/radio.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/rate.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/row.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/search.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/select.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/sentinel.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/server.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/shopping.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/size.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/skill.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/slider.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/star.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/swagger.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/switch.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/system.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/tab.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/table.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/textarea.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/theme.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/time-range.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/time.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/tool.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/tree-table.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/tree.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/upload.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/user.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/validCode.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/wechat.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svg/zip.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/icons/svgo.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/images/dark.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/images/light.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/styles/btn.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/styles/element-ui.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/styles/element-variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/styles/index.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/styles/jingli.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/styles/mixin.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/styles/sidebar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/styles/transition.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/assets/styles/variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/Breadcrumb/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/Crontab/day.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/Crontab/hour.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/Crontab/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/Crontab/min.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/Crontab/month.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/Crontab/result.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/Crontab/second.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/Crontab/week.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/Crontab/year.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/DictData/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/DictTag/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/Editor/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/FileUpload/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/Hamburger/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/HeaderSearch/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/IconSelect/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/IconSelect/requireIcons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/ImagePreview/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/ImageUpload/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/Pagination/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/PanThumb/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/ParentView/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/RightPanel/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/RightToolbar/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/Screenfull/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/SizeSelect/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/SvgIcon/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/ThemePicker/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/TopNav/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/iFrame/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/jingli/Doc/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/components/jingli/Git/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/directive/dialog/drag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/directive/dialog/dragHeight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/directive/dialog/dragWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/directive/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/directive/module/clipboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/directive/permission/hasPermi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/directive/permission/hasRole.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/layout/components/AppMain.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/layout/components/IframeToggle/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/layout/components/InnerLink/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/layout/components/Navbar.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/layout/components/Settings/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/layout/components/Sidebar/FixiOSBug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/layout/components/Sidebar/Item.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/layout/components/Sidebar/Link.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/layout/components/Sidebar/Logo.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/layout/components/Sidebar/SidebarItem.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/layout/components/Sidebar/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/layout/components/TagsView/ScrollPane.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/layout/components/TagsView/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/layout/components/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/layout/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/layout/mixin/ResizeHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/permission.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/plugins/auth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/plugins/cache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/plugins/download.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/plugins/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/plugins/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/plugins/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/router/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/store/getters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/store/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/store/modules/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/store/modules/dict.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/store/modules/permission.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/store/modules/settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/store/modules/tagsView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/store/modules/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/auth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/dict/Dict.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/dict/DictConverter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/dict/DictData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/dict/DictMeta.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/dict/DictOptions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/dict/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/errorCode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/generator/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/generator/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/generator/drawingDefault.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/generator/html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/generator/icon.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/generator/js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/generator/render.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/jingli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/jsencrypt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/permission.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/request.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/scroll-to.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/utils/validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/components/icons/element-icons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/components/icons/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/components/icons/svg-icons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/dashboard/BarChart.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/dashboard/LineChart.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/dashboard/PanelGroup.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/dashboard/PieChart.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/dashboard/RaddarChart.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/dashboard/mixins/resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/error/401.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/error/404.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/index_v1.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/login.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/monitor/job/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/monitor/job/log.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/monitor/online/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/redirect.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/register.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/system/config/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/system/dept/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/system/dict/data.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/system/dict/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/system/logininfor/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/system/menu/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/system/notice/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/system/operlog/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/system/post/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/system/role/authUser.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/system/role/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/system/role/selectUser.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/system/user/authRole.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/system/user/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/system/user/profile/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/system/user/profile/resetPwd.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/system/user/profile/userAvatar.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/system/user/profile/userInfo.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/tool/build/CodeTypeDialog.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/tool/build/DraggableItem.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/tool/build/IconsDialog.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/tool/build/RightPanel.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/tool/build/TreeNodeDialog.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/tool/build/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/tool/gen/basicInfoForm.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/tool/gen/editTable.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/tool/gen/genInfoForm.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/tool/gen/importTable.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/src/views/tool/gen/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-ui/vue.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-visual/jingli-monitor/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-visual/jingli-monitor/src/main/java/com/jingli/modules/monitor/JingliMonitorApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-visual/jingli-monitor/src/main/java/com/jingli/modules/monitor/config/WebSecurityConfigurer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-visual/jingli-monitor/src/main/resources/banner.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-visual/jingli-monitor/src/main/resources/bootstrap.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-visual/jingli-monitor/src/main/resources/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jingli-visual/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/jl_20230223.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/jl_config_20220929.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/quartz.sql" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README1.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/PC端/4 单元概览（大棚 农业 渔业）.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
+      <file leaf-file-name="v2-zhny-4.27.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/v2-zhny-4.27.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            <state relative-caret-position="26">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/PC端/6 传感器设置.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/PC端/7.传感器报表.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/PC端/8.控制器设置.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/APP端/2 首页.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/APP端/3 传感器.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/APP端/5 控制器设置.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/APP端/6 传感器报表.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/PC端/2 概要.jpg">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="-1629">
+                <caret line="12" column="95" lean-forward="false" selection-start-line="12" selection-start-column="95" selection-end-line="12" selection-end-column="95" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -95,43 +700,58 @@
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1944" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1942" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="jingli-agr-ep-v2.2-open-software" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jingli-agr-ep-v2.2-open-software" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jingli-agr-ep-v2.2-open-software" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jingli-agr-ep-v2.2-open-software" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jingli-agr-ep-v2.2-open-software" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jingli-agr-ep-v2.2-open-software" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/UI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -139,6 +759,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\PT-zhny\V2\jingli-agr-ep-v2.2-open-software\UI" />
       <recent name="C:\workspace\zhny\KoiAgriculture-V2" />
     </key>
   </component>
@@ -155,6 +776,13 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -450,6 +1078,22 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -584,11 +1228,20 @@
       <module name="KoiAgriculture-V2" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
@@ -633,15 +1286,9 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method v="2" />
-    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -660,7 +1307,8 @@
       <workItem from="1656575281641" duration="1388000" />
       <workItem from="1663263908635" duration="935000" />
       <workItem from="1663386637553" duration="2601000" />
-      <workItem from="1689868371954" duration="1334000" />
+      <workItem from="1689868371954" duration="2040000" />
+      <workItem from="1696525093033" duration="324000" />
     </task>
     <task id="LOCAL-00001" summary="行者农业物联网平台">
       <created>1653729512857</created>
@@ -788,82 +1436,62 @@
       <option name="project" value="LOCAL" />
       <updated>1689869776649</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="发布开源代码。">
+      <created>1689869834677</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1689869834677</updated>
+    </task>
+    <task id="LOCAL-00020" summary="发布开源代码。">
+      <created>1689869923761</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1689869923761</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17648000" />
+    <option name="totallyTimeSpent" value="18678000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <editor active="true" />
+    <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Capture Tool" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Nl-Palette" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.27164418" />
-      <window_info id="Structure" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32943925" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="right" id="Maven Projects" order="0" />
-      <window_info anchor="right" id="Properties" order="1" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Data View" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette" order="7" />
-      <window_info anchor="right" id="Commander" order="8" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Capture Tool" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Nl-Palette" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.27164418" />
-      <window_info id="Structure" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32943925" />
-      <window_info anchor="bottom" id="Terminal" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Maven Projects" order="0" />
-      <window_info anchor="right" id="Properties" order="1" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Data View" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette" order="7" />
-      <window_info anchor="right" id="Commander" order="8" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -890,20 +1518,9 @@
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="行者农业物联网平台" />
@@ -913,74 +1530,50 @@
     <MESSAGE value="Walker农业物联网平台  增加https加密图床" />
     <MESSAGE value="「鲸哩农业SaaS系统 V2」 +v:18601938676" />
     <MESSAGE value="发布开源代码。" />
-    <option name="LAST_COMMIT_MESSAGE" value="发布开源代码。" />
+    <MESSAGE value="更新代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新代码" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/UI/APP端/4 控制器.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/PC端/1 登录.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10.md" />
-    <entry file="file://$PROJECT_DIR$/README1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/db/v2-zhny-4.27.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UI/PC端/9.溯源详情.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/PC端/3 园区监控.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/10.md" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="216">
-            <caret line="12" column="95" selection-start-line="12" selection-start-column="95" selection-end-line="12" selection-end-column="95" />
+          <first_editor relative-caret-position="-1629">
+            <caret line="12" column="95" lean-forward="false" selection-start-line="12" selection-start-column="95" selection-end-line="12" selection-end-column="95" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UI/APP端/1 启动页.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/APP端/2 首页.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/APP端/3 传感器.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/APP端/5 控制器设置.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/APP端/6 传感器报表.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/PC端/2 概要.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/PC端/6 传感器设置.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/PC端/7.传感器报表.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/PC端/8.控制器设置.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/PC端/4 单元概览（大棚 农业 渔业）.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/README1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/v2-zhny-4.27.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="26">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
