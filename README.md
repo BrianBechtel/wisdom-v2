@@ -5,7 +5,7 @@
 
 ### 智慧农业公众号，算是一个有个讨论的地方,有什么需要支持的可以联系
 
-<img src="https://img-blog.csdnimg.cn/img_convert/df36426b291d641ebe156e846871981c.jpeg"/>
+<img src="https://img-blog.csdnimg.cn/00d54b805052495da274b53570491bc8.jpeg"/>
 
 
 ### 开源农业SaaS系统(Version:2.0.1)
