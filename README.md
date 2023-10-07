@@ -3,9 +3,7 @@
 ***
 ***
 
-### 智慧农业公众号，算是一个有个讨论的地方,有什么需要支持的可以联系
 
-<img src="https://img-blog.csdnimg.cn/00d54b805052495da274b53570491bc8.jpeg"/>
 
 
 ### 开源农业SaaS系统(Version:2.0.1)
@@ -98,3 +96,8 @@
         <td><img src="https://wenhui-1251454246.cos.ap-nanjing.myqcloud.com/ny/nongye-v2/APP%E7%AB%AF/6.jpg"/></td>
     </tr>
 </table>
+
+
+### 欢迎关注智慧农业公众号，领取最新的开源代码
+      
+   <img src="https://img-blog.csdnimg.cn/2078334870644b4cbe3845730ab5fc88.jpeg"/>

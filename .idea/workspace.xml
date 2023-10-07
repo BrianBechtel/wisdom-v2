@@ -29,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="126">
-                <caret line="7" column="75" lean-forward="false" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+              <first_editor relative-caret-position="1252">
+                <caret line="102" column="81" lean-forward="false" selection-start-line="102" selection-start-column="81" selection-end-line="102" selection-end-column="81" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -93,9 +93,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -110,6 +107,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -674,8 +674,8 @@
       <workItem from="1663386637553" duration="2601000" />
       <workItem from="1689868371954" duration="2040000" />
       <workItem from="1696525093033" duration="1772000" />
-      <workItem from="1696528812648" duration="928000" />
-      <workItem from="1696592841149" duration="27000" />
+      <workItem from="1696528812648" duration="1524000" />
+      <workItem from="1696697443635" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="行者农业物联网平台">
       <created>1653729512857</created>
@@ -842,7 +842,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21081000" />
+    <option name="totallyTimeSpent" value="21672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2869" y="-11" width="2902" height="1597" extended-state="6" />
@@ -958,8 +958,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="126">
-            <caret line="7" column="75" lean-forward="false" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+          <first_editor relative-caret-position="1252">
+            <caret line="102" column="81" lean-forward="false" selection-start-line="102" selection-start-column="81" selection-end-line="102" selection-end-column="81" />
             <folding />
           </first_editor>
           <second_editor />
