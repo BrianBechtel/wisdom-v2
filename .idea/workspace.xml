@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5ae73ee-1044-46c8-8cd7-1a6579f83890" name="Default" comment="">
+    <list default="true" id="a5ae73ee-1044-46c8-8cd7-1a6579f83890" name="Default" comment="更新代码">
+      <change afterPath="$PROJECT_DIR$/农业岛.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -26,8 +27,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="144">
-                <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <first_editor relative-caret-position="126">
+                <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -63,18 +64,28 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2409" />
-    <option name="y" value="180" />
-    <option name="width" value="960" />
-    <option name="height" value="517" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jingli-agr-ep-v2.2-open-software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jingli-agr-ep-v2.2-open-software" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -90,6 +101,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2023.4.19-workspace\PT-zhny\V2\jingli-agr-ep-v2.2-open-software" />
       <recent name="C:\workspace\PT-zhny\V2\jingli-agr-ep-v2.2-open-software\UI" />
       <recent name="C:\workspace\zhny\KoiAgriculture-V2" />
     </key>
@@ -617,7 +629,12 @@
       <workItem from="1696528812648" duration="1524000" />
       <workItem from="1696697443635" duration="1765000" />
       <workItem from="1697886069050" duration="93000" />
-      <workItem from="1697886191412" duration="33000" />
+      <workItem from="1697886191412" duration="1203000" />
+      <workItem from="1698032608092" duration="1069000" />
+      <workItem from="1698181160114" duration="747000" />
+      <workItem from="1699121005791" duration="599000" />
+      <workItem from="1699182465787" duration="628000" />
+      <workItem from="1699240182557" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="行者农业物联网平台">
       <created>1653729512857</created>
@@ -794,17 +811,24 @@
       <option name="project" value="LOCAL" />
       <updated>1696698042398</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="更新代码">
+      <created>1697886238990</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1697886238990</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23541000" />
+    <option name="totallyTimeSpent" value="27777000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12118019" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12065332" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -903,8 +927,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <first_editor relative-caret-position="126">
+            <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           </first_editor>
           <second_editor />
         </state>
