@@ -144,7 +144,7 @@ http://nongyedao.nxptdn.com/
 #### 📞 技术交流
 跟着官方，不迷路！欢迎扫码加入农业岛 开源项目群，一手消息及资源，尽在掌握！<br>
 
-![](我的.jpg)
+![](img/我的.jpg)
 
 使用中遇到bug 或者问题可以在gitee 上提 Issues
 
