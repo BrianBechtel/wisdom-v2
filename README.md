@@ -147,7 +147,7 @@ WEBPC管理端：http://zhny-user-font.nxptdn.com/<br>
 ---
 ### 📲 农业岛开源技术交流群
 扫码进群可领取开源版接口文档、产品功能清单、高清UI设计图、思维脑图！
-![](img/wode.png)
+![](img/我的.png)
 
 
 #### 📈 技术社区
@@ -158,7 +158,7 @@ http://nongyedao.nxptdn.com/
 #### 📞 技术交流
 跟着官方，不迷路！欢迎扫码加入农业岛 开源项目群，一手消息及资源，尽在掌握！<br>
 
-![](img/wode.png)
+![](img/我的.png)
 
 使用中遇到bug 或者问题可以在gitee 上提 Issues
 
