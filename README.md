@@ -130,10 +130,18 @@ WEBPC管理端：http://zhny-user-font.nxptdn.com/<br>
 ![](crmeb/crmebimage/crmebimage/demoimage/15webPCadmin-min.gif)
 
 
-### 实际案例
+### 实际案例一（宁夏银川贺兰县渔业项目）
 
-![](img/6-xianchang-1.jpg)
+![](img/anli1-1.jpg)
 
+![](img/anli1-2.jpg)
+
+
+
+### 实际案例二（广州自然微生物集装箱渔业项目）
+
+![](img/anli2-1.jpg)
+![](img/anli2-2.jpg)
 
 ---
 ### 📲 农业岛开源技术交流群
