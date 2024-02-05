@@ -3,7 +3,7 @@
 </div>
 <div align="center">
 
-# 农业岛开源农业系统Java版
+# 农业岛智慧农业系统Java版
 
 </div>
 <div align="center" >
