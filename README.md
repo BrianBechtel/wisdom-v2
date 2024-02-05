@@ -110,20 +110,18 @@ WEBPC管理端：http://zhny-user-font.nxptdn.com/<br>
 ### 💟 UI界面
 
 
-#### 大屏功能
 
-![](img/daping.png)
 
 
 #### 核心功能
 ![](crmeb/crmebimage/crmebimage/demoimage/javaop2.jpg)
 
+#### 大屏功能
 
+![](img/daping.png)
 
 ### 📱 移动端预览
-![](crmeb/crmebimage/crmebimage/demoimage/03-mobile-01.png)
-![](crmeb/crmebimage/crmebimage/demoimage/04-mobile-02.png)
-![](crmeb/crmebimage/crmebimage/demoimage/05-mobile-03.png)
+![](img/mb.jpg)
 
 ### WEB PC管理端预览
 ![](crmeb/crmebimage/crmebimage/demoimage/07-pc-01.png)
