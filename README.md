@@ -116,12 +116,16 @@ WEBPC管理端：http://zhny-user-font.nxptdn.com/<br>
 #### 核心功能
 ![](crmeb/crmebimage/crmebimage/demoimage/javaop2.jpg)
 
+
+
+#### 💻 讨论群：+v:18601938676
+
 #### 大屏功能
 
 ![](img/daping.png)
 
 
-#### 💻 讨论群：+v:18601938676
+
 
 ### 📱 移动端预览
 ![](img/mb.jpg)
