@@ -1,47 +1,41 @@
 <template>
-  <div :class="classObj" class="app-wrapper" :style="{'--current-color': theme}">
-    <div v-if="device==='mobile'&&sidebar.opened" class="drawer-bg" @click="handleClickOutside"/>
-    <sidebar v-if="!sidebar.hide" class="sidebar-container"/>
-    <div :class="{hasTagsView:needTagsView,sidebarHide:sidebar.hide}" class="main-container">
+  <div :class="classObj" class="app-wrapper">
+    <div v-if="device==='mobile'&&sidebar.opened" class="drawer-bg" @click="handleClickOutside" />
+    <sidebar class="sidebar-container"/>
+    <div class="main-container">
       <div :class="{'fixed-header':fixedHeader}">
-        <navbar/>
-        <tags-view v-if="needTagsView"/>
+        <navbar />
       </div>
-      <app-main/>
-      <right-panel>
-        <settings/>
-      </right-panel>
+      <app-main />
     </div>
   </div>
 </template>
 
 <script>
-import RightPanel from '@/components/RightPanel'
-import { AppMain, Navbar, Settings, Sidebar, TagsView } from './components'
+import { Navbar, Sidebar, AppMain } from './components'
 import ResizeMixin from './mixin/ResizeHandler'
-import { mapState } from 'vuex'
-import variables from '@/assets/styles/variables.scss'
 
 export default {
   name: 'Layout',
   components: {
-    AppMain,
     Navbar,
-    RightPanel,
-    Settings,
     Sidebar,
-    TagsView
+    AppMain
+  },
+  data() {
+    return {}
   },
   mixins: [ResizeMixin],
   computed: {
-    ...mapState({
-      theme: state => state.settings.theme,
-      sideTheme: state => state.settings.sideTheme,
-      sidebar: state => state.app.sidebar,
-      device: state => state.app.device,
-      needTagsView: state => state.settings.tagsView,
-      fixedHeader: state => state.settings.fixedHeader
-    }),
+    sidebar() {
+      return this.$store.state.app.sidebar
+    },
+    device() {
+      return this.$store.state.app.device
+    },
+    fixedHeader() {
+      return this.$store.state.settings.fixedHeader
+    },
     classObj() {
       return {
         hideSidebar: !this.sidebar.opened,
@@ -49,9 +43,6 @@ export default {
         withoutAnimation: this.sidebar.withoutAnimation,
         mobile: this.device === 'mobile'
       }
-    },
-    variables() {
-      return variables;
     }
   },
   methods: {
@@ -63,49 +54,46 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  @import "~@/assets/styles/mixin.scss";
-  @import "~@/assets/styles/variables.scss";
-
-  .app-wrapper {
-    @include clearfix;
-    position: relative;
-    height: 100%;
-    width: 100%;
-
-    &.mobile.openSidebar {
-      position: fixed;
-      top: 0;
-    }
-  }
-
-  .drawer-bg {
-    background: #000;
-    opacity: 0.3;
-    width: 100%;
-    top: 0;
-    height: 100%;
-    position: absolute;
-    z-index: 999;
-  }
-
-  .fixed-header {
+@import '~@/styles/mixin.scss';
+@import '~@/styles/variables.scss';
+.navbarhide{
+  margin-left: 0px!important;
+}
+.app-wrapper {
+  @include clearfix;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #0e2247;
+  &.mobile.openSidebar {
     position: fixed;
     top: 0;
-    right: 0;
-    z-index: 9;
-    width: calc(100% - #{$base-sidebar-width});
-    transition: width 0.28s;
   }
+}
+.drawer-bg {
+  background: #000;
+  opacity: 0.3;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  position: absolute;
+  z-index: 999;
+}
 
-  .hideSidebar .fixed-header {
-    width: calc(100% - 54px);
-  }
+.fixed-header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9;
+  width: calc(100% - #{$sideBarWidth});
+  transition: width 0.28s;
+}
 
-  .sidebarHide .fixed-header {
-    width: 100%;
-  }
+.hideSidebar .fixed-header {
+  width: calc(100% - 54px);
+}
 
-  .mobile .fixed-header {
-    width: 100%;
-  }
+.mobile .fixed-header {
+  width: 100%;
+}
 </style>

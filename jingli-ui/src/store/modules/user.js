@@ -1,115 +1,115 @@
-import { login, logout, getInfo, refreshToken } from '@/api/login'
-import { getToken, setToken, setExpiresIn, removeToken } from '@/utils/auth'
+import { login, getInfo } from '@/api/user'
+import { getToken, setToken, removeToken } from '@/utils/auth'
+import { resetRouter } from '@/router'
+import MyStorage from '@/utils/cache'
+// import { setItem } from '@/utils/cache'
+import qs from 'qs'
 
-const user = {
-  state: {
-    token: getToken(),
-    name: '',
-    avatar: '',
-    roles: [],
-    permissions: []
+const state = {
+  token: getToken(),
+  name: MyStorage.getItem('name') || '',
+  avatar: MyStorage.getItem('avatar') || ''
+}
+
+const mutations = {
+  SET_TOKEN: (state, token) => {
+    state.token = token
   },
-
-  mutations: {
-    SET_TOKEN: (state, token) => {
-      state.token = token
-    },
-    SET_EXPIRES_IN: (state, time) => {
-      state.expires_in = time
-    },
-    SET_NAME: (state, name) => {
-      state.name = name
-    },
-    SET_AVATAR: (state, avatar) => {
-      state.avatar = avatar
-    },
-    SET_ROLES: (state, roles) => {
-      state.roles = roles
-    },
-    SET_PERMISSIONS: (state, permissions) => {
-      state.permissions = permissions
-    }
+  SET_NAME: (state, name) => {
+    MyStorage.setItem('name', name)
+    state.name = name
   },
-
-  actions: {
-    // 登录
-    Login({ commit }, userInfo) {
-      const username = userInfo.username.trim()
-      const password = userInfo.password
-      const code = userInfo.code
-      const uuid = userInfo.uuid
-      return new Promise((resolve, reject) => {
-        login(username, password, code, uuid).then(res => {
-          let data = res.data
-          setToken(data.access_token)
-          commit('SET_TOKEN', data.access_token)
-          setExpiresIn(data.expires_in)
-          commit('SET_EXPIRES_IN', data.expires_in)
-          resolve()
-        }).catch(error => {
-          reject(error)
-        })
-      })
-    },
-
-    // 获取用户信息
-    GetInfo({ commit, state }) {
-      return new Promise((resolve, reject) => {
-        getInfo().then(res => {
-          const user = res.user
-          const avatar = (user.avatar == "" || user.avatar == null) ? require("@/assets/images/profile.jpg") : user.avatar;
-          if (res.roles && res.roles.length > 0) { // 验证返回的roles是否是一个非空数组
-            commit('SET_ROLES', res.roles)
-            commit('SET_PERMISSIONS', res.permissions)
-          } else {
-            commit('SET_ROLES', ['ROLE_DEFAULT'])
-          }
-          commit('SET_NAME', user.userName)
-          commit('SET_AVATAR', avatar)
-          resolve(res)
-        }).catch(error => {
-          reject(error)
-        })
-      })
-    },
-
-    // 刷新token
-    RefreshToken({commit, state}) {
-      return new Promise((resolve, reject) => {
-        refreshToken(state.token).then(res => {
-          setExpiresIn(res.data)
-          commit('SET_EXPIRES_IN', res.data)
-          resolve()
-        }).catch(error => {
-          reject(error)
-        })
-      })
-    },
-    
-    // 退出系统
-    LogOut({ commit, state }) {
-      return new Promise((resolve, reject) => {
-        logout(state.token).then(() => {
-          commit('SET_TOKEN', '')
-          commit('SET_ROLES', [])
-          commit('SET_PERMISSIONS', [])
-          removeToken()
-          resolve()
-        }).catch(error => {
-          reject(error)
-        })
-      })
-    },
-
-    // 前端 登出
-    FedLogOut({ commit }) {
-      return new Promise(resolve => {
-        commit('SET_TOKEN', '')
-        removeToken()
-        resolve()
-      })
-    }
+  SET_AVATAR: (state, avatar) => {
+    MyStorage.setItem('avatar', avatar)
+    state.avatar = avatar
   }
 }
 
-export default user
+const actions = {
+  // user login
+  login({ commit }, userInfo) {
+    const { username, password } = userInfo
+    return new Promise((resolve, reject) => {
+      login(qs.stringify({ phone: username.trim(), verifCode: password, loginType: 0 })).then(response => {
+        const { result } = response;
+        if(result.userType!='100'){
+          MyStorage.setItem('companyId', result.id)
+          MyStorage.setItem('companyName', result.name)
+          MyStorage.setItem('lng', result.lng)
+          MyStorage.setItem('lat', result.lat)
+
+          commit('SET_TOKEN', response.token || '123456789')
+          commit('SET_NAME', result.name)
+          commit('SET_AVATAR', result.icon)
+          setToken(response.token || '123456789')
+          resolve()
+        }else{
+          reject(new Error("无效账号"));
+        }
+      }).catch(error => {
+        reject(error)
+      })
+    })
+  },
+
+  // get user info
+  getInfo({ commit, state }) {
+    return new Promise((resolve, reject) => {
+      getInfo(state.token).then(response => {
+        const { data } = response
+        if (!data) {
+          reject('Verification failed, please Login again.')
+        }
+
+        const { name, avatar } = data
+
+        commit('SET_NAME', name)
+        commit('SET_AVATAR', avatar)
+        resolve(data)
+      }).catch(error => {
+        reject(error)
+      })
+    })
+  },
+
+  // user logout
+  logout({ commit }) {
+    return new Promise((resolve, reject) => {
+      MyStorage.clear()
+      commit('SET_TOKEN', '')
+      commit('SET_NAME', '')
+      commit('SET_AVATAR', '')
+      removeToken()
+      resetRouter()
+      resolve()
+    })
+  },
+  // logout({ commit, state }) {
+  //   return new Promise((resolve, reject) => {
+  //     logout(state.token).then(() => {
+  //       commit('SET_TOKEN', '')
+  //       removeToken()
+  //       resetRouter()
+  //       resolve()
+  //     }).catch(error => {
+  //       reject(error)
+  //     })
+  //   })
+  // },
+
+  // remove token
+  resetToken({ commit }) {
+    return new Promise(resolve => {
+      commit('SET_TOKEN', '')
+      removeToken()
+      resolve()
+    })
+  }
+}
+
+export default {
+  namespaced: true,
+  state,
+  mutations,
+  actions
+}

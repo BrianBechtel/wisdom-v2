@@ -1,23 +1,28 @@
 <template>
-  <div v-if="!item.hidden">
-    <template v-if="hasOneShowingChild(item.children,item) && (!onlyOneChild.children||onlyOneChild.noShowingChildren)&&!item.alwaysShow">
-      <app-link v-if="onlyOneChild.meta" :to="resolvePath(onlyOneChild.path, onlyOneChild.query)">
-        <el-menu-item :index="resolvePath(onlyOneChild.path)" :class="{'submenu-title-noDropdown':!isNest}">
-          <item :icon="onlyOneChild.meta.icon||(item.meta&&item.meta.icon)" :title="onlyOneChild.meta.title" />
+  <div v-if="!item.hidden" class="menu-wrapper">
+    <template
+      v-if="hasOneShowingChild(item.children,item) && (!onlyOneChild.children||onlyOneChild.noShowingChildren)&&!item.alwaysShow"
+    >
+      <app-link v-if="onlyOneChild" :to="resolvePath(onlyOneChild.url)">
+        <el-menu-item
+          :index="resolvePath(onlyOneChild.url)"
+          :class="{'submenu-title-noDropdown':!isNest}"
+        >
+          <item :icon="onlyOneChild.img" :title="onlyOneChild.name" />
         </el-menu-item>
       </app-link>
     </template>
 
-    <el-submenu v-else ref="subMenu" :index="resolvePath(item.path)" popper-append-to-body>
+    <el-submenu v-else ref="subMenu" :index="resolvePath(item.url)" popper-append-to-body>
       <template slot="title">
-        <item v-if="item.meta" :icon="item.meta && item.meta.icon" :title="item.meta.title" />
+        <item :icon="onlyOneChild.img" :title="item.name" />
       </template>
       <sidebar-item
         v-for="child in item.children"
-        :key="child.path"
+        :key="child.url"
         :is-nest="true"
         :item="child"
-        :base-path="resolvePath(child.path)"
+        :base-path="resolvePath(child.url)"
         class="nest-menu"
       />
     </el-submenu>
@@ -56,9 +61,6 @@ export default {
   },
   methods: {
     hasOneShowingChild(children = [], parent) {
-      if (!children) {
-        children = [];
-      }
       const showingChildren = children.filter(item => {
         if (item.hidden) {
           return false
@@ -76,24 +78,20 @@ export default {
 
       // Show parent if there are no child router to display
       if (showingChildren.length === 0) {
-        this.onlyOneChild = { ... parent, path: '', noShowingChildren: true }
+        this.onlyOneChild = { ...parent, path: '', noShowingChildren: true }
         return true
       }
 
       return false
     },
-    resolvePath(routePath, routeQuery) {
+    resolvePath(routePath) {
       if (isExternal(routePath)) {
         return routePath
       }
       if (isExternal(this.basePath)) {
         return this.basePath
       }
-      if (routeQuery) {
-        let query = JSON.parse(routeQuery);
-        return { path: path.resolve(this.basePath, routePath), query: query }
-      }
-      return path.resolve(this.basePath, routePath)
+      return path.resolve(routePath)
     }
   }
 }
