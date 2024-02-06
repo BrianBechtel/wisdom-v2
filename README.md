@@ -119,7 +119,6 @@ WEBPC管理端：http://zhny-user-font.nxptdn.com/<br>
 
 
 #### 核心功能
-![](img/naotu-1.jpg)
 
 ![](img/naotu-2.jpg)
 
