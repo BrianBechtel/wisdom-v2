@@ -135,17 +135,9 @@ WEBPC管理端：http://zhny-user-font.nxptdn.com/<br>
 ![](img/mb.jpg)
 
 ### WEB PC管理端预览
-![](crmeb/crmebimage/crmebimage/demoimage/07-pc-01.png)
-![](crmeb/crmebimage/crmebimage/demoimage/08-pc-02.png)
-![](crmeb/crmebimage/crmebimage/demoimage/09-pc-03.png)
-![](crmeb/crmebimage/crmebimage/demoimage/10-pc-04.png)
-![](crmeb/crmebimage/crmebimage/demoimage/11-pc-05.png)
-![](crmeb/crmebimage/crmebimage/demoimage/12-pc-06.png)
+![](img/pc1-shouye.png)
 
-![](crmeb/crmebimage/crmebimage/demoimage/13yemiandesiner-min.gif)
-![](crmeb/crmebimage/crmebimage/demoimage/14yijianhuanse-min.gif)
-![](crmeb/crmebimage/crmebimage/demoimage/15webPCadmin-min.gif)
-
+![](img/pc2-danyuan.png)
 
 ### 实际案例一（宁夏银川贺兰县渔业项目）
 
