@@ -122,7 +122,7 @@ WEBPC管理端：http://zhny-user-font.nxptdn.com/<br>
 
 #### 大屏功能
 
-![](img/daping.png)
+![](img/daping.jpg)
 
 
 
