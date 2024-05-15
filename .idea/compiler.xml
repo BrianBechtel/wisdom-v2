@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jingli-modules-gen" />
+        <module name="jingli-api-system" />
+        <module name="jingli-modules-system" />
+        <module name="jingli-common-redis" />
+        <module name="jingli-gateway" />
+        <module name="jingli-common-core" />
+        <module name="jingli-auth" />
+        <module name="jingli-modules-job" />
+        <module name="jingli-common-datasource" />
+        <module name="jingli-common-datascope" />
+        <module name="jingli-common-seata" />
+        <module name="jingli-visual-monitor" />
+        <module name="jingli-common-log" />
+        <module name="jingli-common-security" />
+        <module name="jingli-modules-file" />
+        <module name="jingli-common-swagger" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
